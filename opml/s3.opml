@@ -11,7 +11,7 @@
 		<windowRight>1500</windowRight>
 		</head>
 	<body text="s3.js">
-		<outline created="Sat, 26 Apr 2014 23:23:38 GMT" isComment="true" pgfnum="40494" text="A set of routines that can be included in a node project to connect to S3. ">
+		<outline created="Sat, 26 Apr 2020 23:23:38 GMT" isComment="true" pgfnum="40494" text="A set of routines that can be included in a node project to connect to S3. ">
 			<outline created="Sat, 26 Apr 2014 23:26:43 GMT" pgfnum="40495" text="You must put this at the top of the code that includes this.">
 				<outline text="var AWS = require (&quot;aws-sdk&quot;);"></outline>
 				<outline text="var s3 = new AWS.S3 ();"></outline>

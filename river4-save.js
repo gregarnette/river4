@@ -1912,7 +1912,6 @@ function everyFiveMinutes () {
 	if (serverData.prefs.enabled) {
 		buildAllRivers ();
 		buildRiversArray ();
-			copyIndexFile (); //6/1/14 by DW
 		}
 	}
 function everyMinute () {
@@ -2302,7 +2301,6 @@ function startup () {
 			origAppModDate = appModDate;
 			loadServerData (function () {
 				applyPrefs ();
-			    copyIndexFile (); //6/1/14 by DW
 				
 				
 				saveServerData (); //so hours-server-up stats update immediately
